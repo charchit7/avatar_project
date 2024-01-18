@@ -49,18 +49,20 @@ You can check the results for this models here [LDM Results](https://github.com/
 
 3. Multi-Diffusion https://huggingface.co/papers/2302.08113 : In this work, we present MultiDiffusion, a unified framework that enables versatile and controllable image generation, using a pre-trained text-to-image diffusion model, without any further training or finetuning.
 
-You can check the results for this model here [Multi-Diffusion](https://github.com/charchit7/avatar_project/tree/main/assets/MultiDiffusion)
+You can check the results for this model here [Multi-Diffusion](https://github.com/charchit7/avatar_project/tree/main/assets/MultiDiffusion). The code for running **LDM3D** and **Multi-Diffusion** can be found in this [Notebook](https://github.com/charchit7/avatar_project/blob/main/testing_pano_pipelines.ipynb).
 
 4. I also tested generating image with [PanoGen](https://pano-gen.github.io/) which is very-interesting but it requires heavy compute and storage ~90GB and they use MatterPlot3D which is not available for commercial usecase.
 
 --- 
 
 **Task 2**:
-
 Leverage the solutions arrived at in part 1 to get panorama generated using both,
 user’s text prompt and the depth conditioning.
 
 - Use the same prompt with the provided depth image.
+---
+
+### Solution:
 
 I used diffusers library for this task. The model used was `StableDiffusionXLControlNetPipeline` which seems to work pretty well. 
 
@@ -71,4 +73,4 @@ Stable Diffusion occasionally struggles to generate images aligned with specific
 - Zero-Convolution Technique: This is used to connect the two sets of weights. Essentially, in the initial phase, the inputs and outputs of both the trainable and locked copies of the neural network block are aligned, as if the duplication does not exist.
 
 
-The results are provided [here](https://github.com/charchit7/avatar_project/tree/main/controlnet_results). Images have similar names with respect to their prompts.
+The results are provided [here](https://github.com/charchit7/avatar_project/tree/main/controlnet_results). Images have similar names with respect to their prompts. For code checkout this [Notebook](https://github.com/charchit7/avatar_project/blob/main/controlnet_av.ipynb)
