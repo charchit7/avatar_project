@@ -1,0 +1,119 @@
+CUDA backend failed to initialize: Found cuDNN version 8700, but JAX was built against version 8904, which is newer. The copy of cuDNN that is installed must be at least as new as the version against which JAX was built. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+load StableDiffusion checkpoint
+loading u-net: <All keys matched successfully>
+loading vae: <All keys matched successfully>
+loading text encoder: <All keys matched successfully>
+load VAE: /content/vae/stablediffusion.vae.pt
+additional VAE loaded
+loading tokenizer
+prepare tokenizer
+Downloading tokenizer/vocab.json: 100% 1.06M/1.06M [00:00<00:00, 1.50MB/s]
+Downloading tokenizer/merges.txt: 100% 525k/525k [00:00<00:00, 25.9MB/s]
+Downloading (…)cial_tokens_map.json: 100% 460/460 [00:00<00:00, 2.12MB/s]
+Downloading (…)okenizer_config.json: 100% 824/824 [00:00<00:00, 3.81MB/s]
+import network module: networks.lora
+load network weights from: /content/lora.safetensors
+create LoRA network from weights
+create LoRA for Text Encoder: 138 modules.
+create LoRA for U-Net: 192 modules.
+enable LoRA for text encoder
+enable LoRA for U-Net
+weights are loaded: <All keys matched successfully>
+pipeline is ready.
+iteration 1/1
+prompt 1/1: 360-degree panoramic image, of a simple room
+negative prompt: lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry
+100% 50/50 [04:08<00:00,  4.98s/it]
+done!
+CUDA backend failed to initialize: Found cuDNN version 8700, but JAX was built against version 8904, which is newer. The copy of cuDNN that is installed must be at least as new as the version against which JAX was built. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+load StableDiffusion checkpoint
+loading u-net: <All keys matched successfully>
+loading vae: <All keys matched successfully>
+loading text encoder: <All keys matched successfully>
+load VAE: /content/vae/stablediffusion.vae.pt
+additional VAE loaded
+loading tokenizer
+prepare tokenizer
+import network module: networks.lora
+load network weights from: /content/lora.safetensors
+create LoRA network from weights
+create LoRA for Text Encoder: 138 modules.
+create LoRA for U-Net: 192 modules.
+enable LoRA for text encoder
+enable LoRA for U-Net
+weights are loaded: <All keys matched successfully>
+pipeline is ready.
+iteration 1/1
+prompt 1/1: 360-degree panoramic image, of a luxury room
+negative prompt: lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry
+100% 50/50 [04:17<00:00,  5.16s/it]
+done!
+CUDA backend failed to initialize: Found cuDNN version 8700, but JAX was built against version 8904, which is newer. The copy of cuDNN that is installed must be at least as new as the version against which JAX was built. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+load StableDiffusion checkpoint
+loading u-net: <All keys matched successfully>
+loading vae: <All keys matched successfully>
+loading text encoder: <All keys matched successfully>
+load VAE: /content/vae/stablediffusion.vae.pt
+additional VAE loaded
+loading tokenizer
+prepare tokenizer
+import network module: networks.lora
+load network weights from: /content/lora.safetensors
+create LoRA network from weights
+create LoRA for Text Encoder: 138 modules.
+create LoRA for U-Net: 192 modules.
+enable LoRA for text encoder
+enable LoRA for U-Net
+weights are loaded: <All keys matched successfully>
+pipeline is ready.
+iteration 1/1
+prompt 1/1: 360-degree panoramic image, of a spaceship
+negative prompt: lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry
+100% 50/50 [04:20<00:00,  5.21s/it]
+done!
+CUDA backend failed to initialize: Found cuDNN version 8700, but JAX was built against version 8904, which is newer. The copy of cuDNN that is installed must be at least as new as the version against which JAX was built. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+load StableDiffusion checkpoint
+loading u-net: <All keys matched successfully>
+loading vae: <All keys matched successfully>
+loading text encoder: <All keys matched successfully>
+load VAE: /content/vae/stablediffusion.vae.pt
+additional VAE loaded
+loading tokenizer
+prepare tokenizer
+import network module: networks.lora
+load network weights from: /content/lora.safetensors
+create LoRA network from weights
+create LoRA for Text Encoder: 138 modules.
+create LoRA for U-Net: 192 modules.
+enable LoRA for text encoder
+enable LoRA for U-Net
+weights are loaded: <All keys matched successfully>
+pipeline is ready.
+iteration 1/1
+prompt 1/1: 360-degree panoramic image, of a forest
+negative prompt: lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry
+100% 50/50 [04:19<00:00,  5.19s/it]
+done!
+CUDA backend failed to initialize: Found cuDNN version 8700, but JAX was built against version 8904, which is newer. The copy of cuDNN that is installed must be at least as new as the version against which JAX was built. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+load StableDiffusion checkpoint
+loading u-net: <All keys matched successfully>
+loading vae: <All keys matched successfully>
+loading text encoder: <All keys matched successfully>
+load VAE: /content/vae/stablediffusion.vae.pt
+additional VAE loaded
+loading tokenizer
+prepare tokenizer
+import network module: networks.lora
+load network weights from: /content/lora.safetensors
+create LoRA network from weights
+create LoRA for Text Encoder: 138 modules.
+create LoRA for U-Net: 192 modules.
+enable LoRA for text encoder
+enable LoRA for U-Net
+weights are loaded: <All keys matched successfully>
+pipeline is ready.
+iteration 1/1
+prompt 1/1: 360-degree panoramic image, of an anime style natural landscape
+negative prompt: lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry
+100% 50/50 [04:20<00:00,  5.20s/it]
+done!
