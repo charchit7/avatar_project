@@ -32,13 +32,15 @@ For selecting the best model I tried variations of multiple models.
 
 You can check all the results here [StitchDiffusion](https://github.com/charchit7/avatar_project/tree/main/Results). The code for running the Stitch-Diffusion can be found here [Google Colab](https://colab.research.google.com/drive/1QZHh9-3pjVtqlg2Oeqq_P11BZnH7cTpH?usp=sharing).
 
-**One of the prompt Result**:
+**One of the prompt Result from StitchDiffusion**:
 
 ---
 Prompt : "360-degree panoramic image, of a simple room"
 ![Image](https://github.com/charchit7/avatar_project/blob/main/Results/im_20240118103233_11.png_360-degree%20panoramic%20image%2C%20of%20a%20simple%20room.png)
 
-As you can see the image is very consistent with the results. Comparing with Multi-Diffusion on same prompt below.
+As you can see the image is very consistent with the results. 
+
+Comparing with Multi-Diffusion result on same prompt below:
 
 ![MultiDiff](https://github.com/charchit7/avatar_project/blob/main/assets/MultiDiffusion/MultiDiffusion_360-degree_panoramic_image%2C_of_a_simple_room_image_1.png)
 ---
