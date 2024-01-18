@@ -11,7 +11,8 @@ There are two requirement :
 2. The generated panorama’s ends should meet i.e. seam needs to be tiled.
 
 --- 
-
+### Solution : 
+--- 
 For this task I selected these prompts:
 1.    "360-degree panoramic image, of a simple room",
 2.    "360-degree panoramic image, of a luxury room",
@@ -28,17 +29,18 @@ For additional tests I added this text to the prompt : "stereoscopic, equirectan
 For selecting the best model I tried variations of multiple models.
 
 1. [Stitch Diffusion](https://littlewhitesea.github.io/stitchdiffusion.github.io/) (WACV 2024) : This paper gave the best results. They used LORA to fine-tune the model on their custom dataset. Which gave then consistent 360 panoramic results.
+
 You can check all the results here [StitchDiffusion](https://github.com/charchit7/avatar_project/tree/main/Results). The code for running the Stitch-Diffusion can be found here [Google Colab](https://colab.research.google.com/drive/1QZHh9-3pjVtqlg2Oeqq_P11BZnH7cTpH?usp=sharing).
 
 **One of the prompt Result**:
 
 ---
 Prompt : "360-degree panoramic image, of a simple room"
-![Image](https://raw.githubusercontent.com/charchit7/avatar_project/main/Results/im_20240118103233_11.png_360-degree%20panoramic%20image%2C%20of%20a%20simple%20room.png?token=GHSAT0AAAAAACA3PB3GRVFEK44KWAULLP54ZNJCMSQ)
+![Image](https://github.com/charchit7/avatar_project/blob/main/Results/im_20240118103233_11.png_360-degree%20panoramic%20image%2C%20of%20a%20simple%20room.png)
 
 As you can see the image is very consistent with the results. Comparing with Multi-Diffusion on same prompt below.
 
-![MultiDiff](https://raw.githubusercontent.com/charchit7/avatar_project/main/assets/MultiDiffusion/MultiDiffusion_360-degree_panoramic_image%2C_of_a_simple_room_image_1.png?token=GHSAT0AAAAAACA3PB3HO76Y5HZYZUUIXG76ZNJCOCQ)
+![MultiDiff](https://github.com/charchit7/avatar_project/blob/main/assets/MultiDiffusion/MultiDiffusion_360-degree_panoramic_image%2C_of_a_simple_room_image_1.png)
 ---
 
 2. LDM3D Pipeline https://arxiv.org/abs/2305.10853 : This research paper proposes a Latent Diffusion Model for 3D (LDM3D) that generates both image and depth map data from a given text prompt, allowing users to generate RGBD images from text prompts. 
