@@ -64,4 +64,11 @@ user’s text prompt and the depth conditioning.
 
 I used diffusers library for this task. The model used was `StableDiffusionXLControlNetPipeline` which seems to work pretty well. 
 
-The results are provided in the  
+### controlnet:
+Stable Diffusion occasionally struggles to generate images aligned with specific prompts. ControlNet addresses this by enhancing Stable Diffusion's capabilities. The fundamental concept of ControlNet is straightforward:
+
+- Dual Weight System: It involves cloning Stable Diffusion's weights into two sets - a trainable copy and a locked copy. This dual system preserves the original information while allowing for modifications.
+- Zero-Convolution Technique: This is used to connect the two sets of weights. Essentially, in the initial phase, the inputs and outputs of both the trainable and locked copies of the neural network block are aligned, as if the duplication does not exist.
+
+
+The results are provided [here](https://github.com/charchit7/avatar_project/tree/main/controlnet_results). Images have similar names with respect to their prompts.
